@@ -1,0 +1,21 @@
+.BoxModel{
+    display:flex;
+    justify-content: center;
+    background-color: black;
+    flex-wrap: wrap;
+}
+.box{
+    background-color: white;
+    width: 15%;
+    margin: 20px;
+}
+@media(max-width:1250px){
+    .box{
+        width : 45%;
+    }
+}
+@media(max-width:500px){
+    .box{
+        width : 90%;
+    }
+}

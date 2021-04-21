@@ -1,0 +1,41 @@
+table,th,tr,td{
+    border: 1px black solid;
+}
+
+header{
+    color:silver;
+    background-color:black;
+    font-size: 24px;
+    font-weight: bolder;
+    padding: 12px;
+}
+.SubTitle{
+    font-size: 12px;
+}
+
+body{
+    background-color: #f3f3f3;
+}
+
+figure{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 50px;
+    padding: 20px;
+    background-color: #eaf2f7;
+    border-radius: 50px;
+}
+
+figure > img{
+    width: 25%;
+}
+
+figure > figcaption{
+    width: 75%;
+} 
+
+li > span{
+    font-weight:bolder;
+    font-size: large;
+}
